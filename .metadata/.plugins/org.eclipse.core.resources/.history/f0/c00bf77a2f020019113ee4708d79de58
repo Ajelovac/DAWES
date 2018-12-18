@@ -1,0 +1,30 @@
+package com.dawes.modelo;
+
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
+@Entity
+@Table(name="recetas")
+public class RecetaVO {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int idreceta;
+	private String denominacion;
+	
+	@OneToMany(mappedBy="rec", cascade=CascadeType.PERSIST)
+	@OnDelete(action=OnDeleteAction.CASCADE)
+	Set <RecetaIngredienteVO> rivo;
+	
+	
+}

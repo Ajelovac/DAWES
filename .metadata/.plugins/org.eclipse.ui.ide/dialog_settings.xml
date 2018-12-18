@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="/Users/alejandrojelovacgallurt/Documents/Clase/DWES/Profesor/ajelovac_jpa"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/alejandrojelovacgallurt/Downloads/primera.zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/DanielGR_PRIMERAEV (4).zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/simulacion.zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/charo_JPA.zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/tema3p2.zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/tema3p.zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/Soluciones-20181122/JDBC/tema1.zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/Soluciones-20181122/JDBC/charo_JDBC.zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/charo_PN.zip"/>
+			<item value="/Users/alejandrojelovacgallurt/Downloads/charo_PATRONES.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,24 @@
+package com.dawes.modelo;
+
+import java.util.Set;
+
+import javax.persistence.*;
+
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
+@Entity
+@Table(name="ingredientes")
+public class IngredienteVO {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int idingrediente;
+	private String denominacion;
+	
+	@OneToMany(mappedBy="ing", cascade=CascadeType.PERSIST)
+	@OnDelete(action=OnDeleteAction.CASCADE)
+	Set <RecetaIngredienteVO> rivo;
+	
+	
+}

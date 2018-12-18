@@ -1,0 +1,17 @@
+INSERT INTO ingrediente(denominacion) VALUES ("Zanahoria");
+INSERT INTO ingrediente(denominacion) VALUES ("Platano");
+INSERT INTO ingrediente(denominacion) VALUES ("Leche");
+INSERT INTO ingrediente(denominacion) VALUES ("Manzana");
+INSERT INTO ingrediente(denominacion) VALUES ("Harina");
+INSERT INTO receta(denominacion) VALUES ("Pastel de zanahoria");
+INSERT INTO receta(denominacion) VALUES ("Pastel de platano");
+INSERT INTO receta(denominacion) VALUES ("Pastel de manzana");
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(1,1,200);
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(1,3,500);
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(1,5,500);
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(2,2,300);
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(2,3,600);
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(2,5,500);
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(3,4,250);
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(3,3,600);
+INSERT INTO cantidad(receta_idreceta,ingrediente_idingrediente,cantidad) values(3,5,550);

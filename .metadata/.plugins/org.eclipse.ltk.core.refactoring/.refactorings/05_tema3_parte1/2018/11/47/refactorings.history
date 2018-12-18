@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;META-INF&apos; to &apos;ajelovac_jpa/src/main/resources&apos;&#x0A;- Original project: &apos;05_tema3_parte1&apos;&#x0A;- Destination element: &apos;ajelovac_jpa/src/main/resources&apos;&#x0A;- Original element: &apos;META-INF&apos;" description="Copy folder" destination="=ajelovac_jpa/src\/main\/resources" element1="src/main/resources/META-INF" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1542903933328" units="0" version="1.0"/>
+</session>

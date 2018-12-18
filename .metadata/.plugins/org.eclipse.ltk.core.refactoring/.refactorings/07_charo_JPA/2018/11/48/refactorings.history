@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;practica/src/main/java/com.dawes.modelo&apos;&#x0A;- Original project: &apos;07_charo_JPA&apos;&#x0A;- Destination element: &apos;practica/src/main/java/com.dawes.modelo&apos;&#x0A;- Original elements:&#x0A;     com.dawes.modelo.CuentaVO.java&#x0A;     com.dawes.modelo.MovimientoVO.java" description="Copy compilation units" destination="=practica/src\/main\/java&lt;com.dawes.modelo" element1="/src\/main\/java&lt;com.dawes.modelo{CuentaVO.java" element2="/src\/main\/java&lt;com.dawes.modelo{MovimientoVO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1543305362761" units="2" version="1.0"/>
+</session>

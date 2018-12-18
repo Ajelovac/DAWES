@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DAOFactory.java&apos; to &apos;primeraEv/src/main/java/com.dawes.util&apos;&#x0A;- Original project: &apos;DGR_primeraEv&apos;&#x0A;- Destination element: &apos;primeraEv/src/main/java/com.dawes.util&apos;&#x0A;- Original element: &apos;com.dawes.util.DAOFactory.java&apos;" description="Copy compilation unit" destination="=primeraEv/src\/main\/java&lt;com.dawes.util" element1="/src\/main\/java&lt;com.dawes.util{DAOFactory.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1544528204549" units="1" version="1.0"/>
+</session>

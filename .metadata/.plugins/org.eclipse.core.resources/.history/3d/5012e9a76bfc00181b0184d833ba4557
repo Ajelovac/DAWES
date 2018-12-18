@@ -1,0 +1,8 @@
+package com.dawes.modelo;
+
+public class TratamientoVO {
+	private int tratamiento;
+	private String producto;
+	private float dosis;
+
+}

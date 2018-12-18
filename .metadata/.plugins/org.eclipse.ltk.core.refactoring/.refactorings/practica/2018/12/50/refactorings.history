@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;console_log.txt&apos; to &apos;practica&apos;" description="Move &apos;console_log.txt&apos; to &apos;practica&apos;" destination="/practica" element1="/primeraEv/src/main/java/com/dawes/service/console_log.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1544531368812" updateReferences="true"/>
+</session>

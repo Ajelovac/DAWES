@@ -1,0 +1,16 @@
+package com.dawes.daoImp;
+
+import javax.persistence.EntityManager;
+
+public class RecetaDAOImpl implements RecetaDAO{
+	
+	EntityManager em;
+
+	public RecetaDAOImpl(EntityManager em) {
+		super();
+		this.em = em;
+	}
+	
+	
+
+}

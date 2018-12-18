@@ -1,0 +1,7 @@
+package com.dawes.modelo;
+
+public class FincaVO {
+	private int idfinca;
+	private String nombre;
+
+}

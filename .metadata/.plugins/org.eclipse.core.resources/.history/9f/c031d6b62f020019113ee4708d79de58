@@ -1,0 +1,21 @@
+package com.dawes.modelo;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="recetaingredientes")
+public class RecetaIngredienteVO {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int idrecetaingrediente;
+	private float cantidad;
+	
+	@ManyToOne
+	@JoinColumn(name="idreceta")
+	private RecetaVO rec;
+	
+	@ManyToOne
+	@JoinColumn(name="idingrediente")
+	private IngredienteVO ing;
+}

@@ -1,0 +1,53 @@
+package com.dawes.serviceImp;
+
+import java.util.List;
+
+import com.dawes.dao.IngredienteDAO;
+import com.dawes.dao.RecetaDAO;
+import com.dawes.daoImp.RecetaDAOImpl;
+import com.dawes.modelo.IngredienteVO;
+import com.dawes.modelo.RecetaVO;
+import com.dawes.util.DAOFactory;
+
+public class ServiceRecetaImpl implements ServiceReceta {
+
+	DAOFactory f;
+	RecetaDAOImpl rdi;
+	
+	public ServiceRecetaImpl() {
+		f=DAOFactory.getF();
+		rdi= (RecetaDAOImpl) f.getRecetaDAO();
+	}
+
+	@Override
+	public RecetaDAO getRecetaDAO() {
+		return f.getRecetaDAO();
+	}
+
+	@Override
+	public IngredienteDAO getIngredienteDAO() {
+		return f.getIngredienteDAO();
+	}
+
+	@Override
+	public void save(RecetaVO receta) {
+		rdi.save(receta);
+	}
+
+	@Override
+	public void remove(RecetaVO receta) {
+		rdi.remove(receta);
+	}
+
+	@Override
+	public void update(RecetaVO receta) {
+		rdi.update(receta);
+	}
+
+	@Override
+	public List<IngredienteVO> listall() {
+		return rdi.listall();
+	}
+	
+	
+}

@@ -1,0 +1,23 @@
+1544531296473	Extract interface 'ServiceReceta'
+1544531310230	Delete element
+1544531335426	Extract interface 'ServiceReceta'
+1544531404547	Copy compilation unit
+1544531413551	Delete element
+1544531724672	Extract interface 'IngredienteService'
+1544531747897	Delete element
+1544531755580	Copy compilation unit
+1544531765158	Delete element
+1544531801219	Extract interface 'ServiceReceta'
+1544531825316	Copy compilation unit
+1544531832656	Delete element
+1544532403581	Delete element
+1544532444667	Rename type 'RecetaServiceImpl'
+1544532477990	Rename type 'IngredienteServiceImpl'
+1544532567965	Delete element
+1544532573436	Delete element
+1544535617351	Extract interface 'ServiceIngrediente'
+1544535625039	Copy compilation unit
+1544535631506	Delete element
+1544535659774	Extract interface 'ServiceReceta'
+1544535664793	Copy compilation unit
+1544535670621	Delete element

@@ -1,0 +1,4 @@
+1544604577237	Rename type 'ServiceAlumno'
+1544605298830	Extract interface 'ServiceAlumno'
+1544605316931	Extract interface 'ServiceCurso'
+1544790025899	Move 'persistence.xml' to 'META-INF'

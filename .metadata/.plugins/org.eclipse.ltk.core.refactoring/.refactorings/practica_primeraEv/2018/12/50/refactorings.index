@@ -1,0 +1,7 @@
+1544439766343	Move 'data.sql' to 'sql'
+1544455926549	Rename type 'FincasDAOImpl'
+1544456639633	Extract interface 'ServiceFinca'
+1544456654910	Move compilation unit
+1544456822825	Extract interface 'ServiceTratamiento'
+1544456828640	Move compilation unit
+1544605704169	Copy file

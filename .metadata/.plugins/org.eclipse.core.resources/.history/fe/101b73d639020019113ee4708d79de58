@@ -1,0 +1,14 @@
+package practica_recuperacion_primeraEv;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Test_1 {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

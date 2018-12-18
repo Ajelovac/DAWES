@@ -1,0 +1,13 @@
+package com.dawes.dao;
+
+import com.dawes.modelo.IngredienteVO;
+
+public interface IngredienteDAO {
+
+	void save(IngredienteVO ingrediente);
+	void remove(IngredienteVO ingrediente);
+	void update(IngredienteVO ingrediente);
+	List<RecetaVO> listall();
+	
+	
+}
